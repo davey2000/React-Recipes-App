@@ -1,0 +1,31 @@
+.cust {
+    border: 5px #9896f1 solid !important;
+    color: black ; 
+    font-family: 'Squada One', cursive;
+    font-weight: 500;
+    font-size: 1.2rem;
+    background-color: #9896f1;
+    box-shadow: rgba(11, 1, 1, 0.84) 0px 3px 8px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 60px 20px 60px;
+      
+      
+}
+
+@media screen and (max-width: 1150px) {
+    
+}
+
+@media screen and (max-width: 650px) {
+    .cust {
+      padding: 1rem;
+      background-color: red;
+      width: 300px;
+      height: 200px;
+      align-items: center;
+      justify-content: center;
+      
+      margin: auto;
+    }
+  }

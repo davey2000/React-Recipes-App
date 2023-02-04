@@ -1,0 +1,120 @@
+.searchbar{
+    border-radius: 12px;
+    border: 2px solid #eee;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 5px 10px 5px 40px;
+    font-size: 1.8rem;
+    line-height: 30px;
+    outline: 0;
+    display: block;
+    height: 3.5rem;
+    width: 30rem;
+    margin: 20px 10px 20px 120px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Squada One', cursive;
+    
+}
+
+.searchbar:hover{
+    cursor: pointer;
+}
+
+.wrap{
+  margin: 10px auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-button{
+    border-style: none;
+    background: none;
+    position: absolute;
+    left: 65px;
+    top: 0;
+    font-size: 25px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-button:hover{
+    cursor: pointer;
+}
+
+.Form{
+    margin: 0 20rem;
+}
+.Form input{
+    padding: 1rem 3rem;
+    width: 100%;
+}
+
+@media screen and (max-width: 1150px) {
+    .searchbar{
+        border-radius: 10px;
+        border: 2px solid #eee;
+        padding: 5px 10px 5px 25px;
+        font-size: 1rem;
+        line-height: 30px;
+        outline: 0;
+        display: block;
+        height: 2rem;
+        width: 12rem;
+        margin: 10px 20px 10px 19px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .search-button{
+        border-style: none;
+        background: none;
+        padding: 5px;
+        position: absolute;
+        left: 15px;
+        font-size: 25px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .searchbar{
+        border-radius: 10px;
+        border: 2px solid #eee;
+        padding: 5px 10px 5px 20px;
+        font-size: 1rem;
+        line-height: 30px;
+        outline: 0;
+        display: block;
+        height: 2rem;
+        width: 10rem;
+        margin: 10px 20px 10px 19px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .search-button{
+        border-style: none;
+        background: none;
+        padding: 5px;
+        position: absolute;
+        left: 15px;
+        font-size: 25px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .wrap{
+        margin: 10px auto;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+}

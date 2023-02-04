@@ -1,0 +1,151 @@
+.section__padding {
+    padding: 4rem 6rem;
+  }
+  
+
+
+  
+  .app__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    min-height: 100vh;
+  }
+  
+  .app__wrapper_info {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  
+  .app__wrapper_img {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .app__wrapper_img img {
+    width: 80%;
+  }
+  
+  .custom__button {
+    background-color: crimson;
+      color: black;
+    
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      line-height: 28px;
+      font-size: 16px;
+      padding: 0.5rem 1.5rem;
+      border-radius: 1px;
+      border: none;
+      outline: none;
+      cursor: pointer;
+  }
+  
+  .p__cormorant {
+
+    color: white;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    line-height: 29.9px;
+    font-size: 23px;
+  }
+  
+  .p__opensans {
+    
+    color: white;
+    font-weight: 400;
+    font-family: 'Squada One', cursive;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    line-height: 28px;
+    font-size: 1.5rem;
+  }
+  
+  .headtext__cormorant {
+    font-size: 64px;
+    line-height: 83.2px;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+  }
+
+  @media screen and (min-width: 2000px) {
+    .custom__button,
+    .p__cormorant {
+      font-size: 37px;
+      line-height: 67px;
+    }
+  
+    .p__opensans {
+      font-size: 2rem;
+      line-height: 50px;
+    }
+  
+    .headtext__cormorant {
+      font-size: 150px;
+      line-height: 210px;
+    }
+  
+  }
+  
+  @media screen and (max-width: 1150px) {
+    .app__wrapper {
+      flex-direction: column;
+    }
+  
+    .app__wrapper_img {
+      margin: 5rem 0 0 0;
+    }
+  
+    .app__wrapper_img-reverse {
+      margin: 0 0 5rem 0;
+    }
+  
+    .app__wrapper_img img {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 850px) {
+    .section__padding {
+      padding: 4rem;
+    }
+  }
+  
+  @media screen and (max-width: 650px) {
+    .section__padding {
+      padding: 4rem 2rem;
+    }
+    
+    .p__cormorant {
+      font-size: 21px;
+    }
+  
+    .p__opensans {
+      font-size: 1rem;
+    }
+  }
+  
+  @media screen and (max-width: 450px) {
+    .p__opensans {
+      font-size: 12px;
+    }
+  
+    .p__cormorant {
+      font-size: 19px;
+    }
+  
+    .headtext__cormorant {
+      font-size: 45px;
+      line-height: 70px;
+    }
+  }
